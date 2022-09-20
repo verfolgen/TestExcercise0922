@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:alpine
+    restart: always
+    container_name: postgres_container
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ghtq345
+      POSTGRES_DB: testexercise0922
+
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    ports:
+      - '5435:5432'
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+
+
