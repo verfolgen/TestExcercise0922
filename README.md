@@ -20,7 +20,7 @@
 Помимо этого, в приложении настроена миграция БД и запуск БД в контейнере.
 
 Основные действия:
-- http://localhost:8080/swagger-ui/index.html
+- http://localhost:8081/swagger-ui/index.html
 
 Backend:
 - Spring Boot
