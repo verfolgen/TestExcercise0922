@@ -82,7 +82,7 @@ public class ConversionValue {
             if (!tableTransfer.get(V).containsKey(W)) {
                 HashMap<String, Float> tempMap = tableTransfer.get(V);
                 tempMap.put(W, p);
-                tableTransfer.put(V, tempMap);                ;
+                tableTransfer.put(V, tempMap);
             }
         } else {
             HashMap<String, Float> innerMap = new HashMap<>();
